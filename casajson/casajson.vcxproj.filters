@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="source files\cpprest">
+      <UniqueIdentifier>{add24552-e672-4302-96cb-e6166be9d42d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\json">
+      <UniqueIdentifier>{dcd5d939-0d7a-40e9-b1c2-e263876f670e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\pch">
+      <UniqueIdentifier>{4b1057b1-6af2-4f1d-b87b-38d40e80dd30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\utilities">
+      <UniqueIdentifier>{e079c0ba-7a0f-4edf-a392-8a9638f53d00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\cpprest\details">
+      <UniqueIdentifier>{0482634f-fa43-4688-9657-9efae7178238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="precompiled header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch\stdafx.cpp">
+      <Filter>source files\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\asyncrt_utils.cpp">
+      <Filter>source files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json.cpp">
+      <Filter>source files\json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_parsing.cpp">
+      <Filter>source files\json</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_serialization.cpp">
+      <Filter>source files\json</Filter>
+    </ClCompile>
+    <ClCompile Include="precompile.cc">
+      <Filter>precompiled header</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch\stdafx.h">
+      <Filter>source files\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="cpprest\asyncrt_utils.h">
+      <Filter>source files\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="cpprest\json.h">
+      <Filter>source files\cpprest</Filter>
+    </ClInclude>
+    <ClInclude Include="cpprest\details\basic_types.h">
+      <Filter>source files\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="cpprest\details\cpprest_compat.h">
+      <Filter>source files\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="cpprest\details\nosal.h">
+      <Filter>source files\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="cpprest\details\SafeInt3.hpp">
+      <Filter>source files\cpprest\details</Filter>
+    </ClInclude>
+    <ClInclude Include="precompile.h">
+      <Filter>precompiled header</Filter>
+    </ClInclude>
+    <ClInclude Include="casajson.h">
+      <Filter>source files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
