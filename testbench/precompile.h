@@ -10,12 +10,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#ifndef CASAJSON_TESTBENCH_PRECOMPILE_H_
-#define CASAJSON_TESTBENCH_PRECOMPILE_H_
+#ifndef TESTBENCH_PRECOMPILE_H_
+#define TESTBENCH_PRECOMPILE_H_
 
 #include <winsdkver.h>
 #include <sdkddkver.h>
 #include "CppUnitTest.h"  // NOLINT
 #include "casajson/casajson.h"
 
-#endif  // CASAJSON_TESTBENCH_PRECOMPILE_H_
+#endif  // TESTBENCH_PRECOMPILE_H_

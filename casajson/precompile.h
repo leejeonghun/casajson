@@ -10,8 +10,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#ifndef CASAJSON_CASAJSON_PRECOMPILE_H_
-#define CASAJSON_CASAJSON_PRECOMPILE_H_
+#ifndef CASAJSON_PRECOMPILE_H_
+#define CASAJSON_PRECOMPILE_H_
 
 #ifndef NTDDI_VERSION
 #define NTDDI_VERSION 0x05010000
@@ -26,4 +26,4 @@
 #include "casajson.h"  // NOLINT
 #include "pch/stdafx.h"
 
-#endif  // CASAJSON_CASAJSON_PRECOMPILE_H_
+#endif  // CASAJSON_PRECOMPILE_H_

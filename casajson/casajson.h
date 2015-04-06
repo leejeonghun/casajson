@@ -10,8 +10,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#ifndef CASAJSON_CASAJSON_CASAJSON_H_
-#define CASAJSON_CASAJSON_CASAJSON_H_
+#ifndef CASAJSON_CASAJSON_H_
+#define CASAJSON_CASAJSON_H_
 
 #ifndef _MS_WINDOWS
 #define _MS_WINDOWS
@@ -25,4 +25,4 @@
 
 namespace json = web::json;
 
-#endif  // CASAJSON_CASAJSON_CASAJSON_H_
+#endif  // CASAJSON_CASAJSON_H_
